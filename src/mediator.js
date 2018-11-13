@@ -63,11 +63,12 @@ function removeReleaseListeners() {
 }
 
 function getGhostParent() {
-  if (grabbedElement) {
-    return grabbedElement.parentElement || global.document.body;
-  } else {
+  console.log('forked repo');
+  // if (grabbedElement) {
+  //   return grabbedElement.parentElement || global.document.body;
+  // } else {
     return global.document.body;
-  }
+  // }
 }
 
 function getGhostElement(wrapperElement, { x, y }, container, cursor) {
