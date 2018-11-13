@@ -63,7 +63,6 @@ function removeReleaseListeners() {
 }
 
 function getGhostParent() {
-  console.log('forked repo');
   // if (grabbedElement) {
   //   return grabbedElement.parentElement || global.document.body;
   // } else {
